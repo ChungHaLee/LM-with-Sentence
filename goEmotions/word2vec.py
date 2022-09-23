@@ -14,6 +14,8 @@ import preprocess_text
 import re
 
 from konlpy.tag import *
+
+
 okt = Okt()
 
 

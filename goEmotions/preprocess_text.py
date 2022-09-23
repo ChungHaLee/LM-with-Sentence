@@ -3,9 +3,9 @@ import pandas as pd
 import itertools
 
 # 1. 1차연도 어노테이터들이 적은 문장
-music_by_numbers = pd.read_excel('goEmotions/annotated/dance_by_numbers.xlsx', engine='openpyxl')
-dance_by_numbers = pd.read_excel('goEmotions/annotated/dance_by_numbers.xlsx', engine='openpyxl')
-visual_by_numbers = pd.read_excel('goEmotions/annotated/dance_by_numbers.xlsx', engine='openpyxl')
+music_by_numbers = pd.read_excel('./annotated/dance_by_numbers.xlsx', engine='openpyxl')
+dance_by_numbers = pd.read_excel('./annotated/dance_by_numbers.xlsx', engine='openpyxl')
+visual_by_numbers = pd.read_excel('./annotated/dance_by_numbers.xlsx', engine='openpyxl')
 
 # 2. 대화 음성 오픈 데이터셋
 # talking_data_1 = pd.read_excel('/Users/lifeofpy/Desktop/dataset_청각2/감정 분류를 위한 대화 음성 데이터셋_4차년도.xlsx', engine='openpyxl')
@@ -13,7 +13,7 @@ visual_by_numbers = pd.read_excel('goEmotions/annotated/dance_by_numbers.xlsx', 
 # talking_data_3 = pd.read_excel('/Users/lifeofpy/Desktop/dataset_청각2/감정 분류를 위한 대화 음성 데이터셋_5차년도_2차.xlsx', engine='openpyxl')
 
 # 3. 한국어 발라드 가사 데이터셋
-lyrics_ballad = open('goEmotions/annotated/lyrics_ballad.txt', 'r').read().split('\n')
+lyrics_ballad = open('./annotated/lyrics_ballad.txt', 'r').read().split('\n')
 lyrics_ballad = [[x] for x in lyrics_ballad if x != '']  # 결측치 제거
 
 
