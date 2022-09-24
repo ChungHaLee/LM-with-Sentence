@@ -13,7 +13,7 @@ requirements.txt 설치
 
 
 ### Libraries
-- GoEmotions-Korean: 텍스틑 감정 분류
+- GoEmotions-Korean: 텍스트 감정 분류
 - Flask : 서버
 - Konlpy : 한국어 형태소 분석기
 - SoyNLP : 한국어 명사 추출기
